@@ -1,0 +1,40 @@
+.formContent,
+.userForm,
+.userForm label,
+.userQR {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.userForm {
+    gap: 1rem;
+    width: 80vw;
+    padding: 0;
+    margin: 0;
+}
+
+.userQR {
+    gap: 1.5rem;
+}
+
+.userForm label {
+    gap: 0.5rem;
+}
+
+.userQR h3,
+.userQR h6 {
+    margin: 0;
+}
+
+.userForm input {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.userForm button,
+.userQR button {
+    width: 100%;
+    height: 3rem;
+    font-size: 1.5rem;
+}

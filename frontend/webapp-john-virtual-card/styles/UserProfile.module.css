@@ -1,0 +1,34 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profileData {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.title {
+    max-width: 80%;
+}
+
+.profileData li {
+    padding: 0.5rem;
+    background: #fff;
+    color: #000;
+    min-width: 10rem;
+    text-align: center;
+}
+
+@media (min-width:1000px) {
+    .profileData {
+        flex-direction: row;
+    }
+}
