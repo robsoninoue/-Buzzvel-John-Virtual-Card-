@@ -8,7 +8,7 @@
 - Users can download image;
 - Users must fill some information that will be displayed in profile page;
 - Mobile first;
-- Create a profile page for each users has generetad QR-code;
+- Create a profile page for each users has generated QR-code;
 
 ## Stacks
 
@@ -22,7 +22,6 @@
 - NodeJS
 - ReactJS
 - NextJS
-- Tailwind CSS
 - Typescript
 
 ### DB
@@ -35,14 +34,46 @@
 
 ## Requirements
 
-- Composer
 - PHP
-- NPM/Yarn
+- Composer
 - NodeJS
+- NPM/Yarn
 
-### How to use
+## How to use at local environment
 
-Clone this repo. In backend folder run `php artisan serve` and in frontend `yarn dev`
+Clone this repo.
+
+`git clone https://github.com/robsoninoue/-Buzzvel-John-Virtual-Card-.git`
+
+Go to cloned repo folder
+
+`cd -Buzzvel-John-Virtual-Card-`
+
+Enter in backend/api-john-virtual-card folder
+
+`cd backend/api-john-virtual-card`
+
+Install the backend
+
+`composer install`
+
+Run backend server
+
+`php artisan serve`
+
+Open another terminal window to run frontend server and go to cloned repo folder
+
+Enter in frontend folder
+
+`cd frontend/webapp-john-virtual-card`
+
+Install the frontend
+
+`yarn install` or `npm install`
+
+Run frontend server in dev mode
+
+`yarn dev` or `npm run dev`
 
 ### API Routes
 
