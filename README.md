@@ -10,6 +10,10 @@
 - Mobile first;
 - Create a profile page for each users has generated QR-code;
 
+## Demo
+
+https://qrcodegenerator.robson.digital
+
 ## Stacks
 
 ### Backend
